@@ -579,6 +579,8 @@ a:focus {
     .about .about-content {
         padding: 45px 15px 0 15px;
     }
+
+    
 }
 
 
@@ -1188,6 +1190,11 @@ a:focus {
     background: #E69A8DFF;
 }
 
+#contactimg {
+    width: 90%;
+    height:100%;
+}
+
 .contact .contact-form input {
     color: whitesmoke;
     padding: 15px 0;
@@ -1247,6 +1254,10 @@ a:focus {
     
     .contact .contact-form {
         padding: 90px 0;
+    }
+    #contactimg{
+        
+        height:100%;
     }
 }
 
