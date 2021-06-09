@@ -3,7 +3,7 @@
 /*******************************/
 body {
     color: #797979;
-    background: #ffffff;
+    background: whitesmoke;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -43,7 +43,7 @@ a:focus {
     font-size: 14px;
     font-weight: 600;
     letter-spacing: 1px;
-    color: #ffffff;
+    color: whitesmoke;
     background: #E69A8DFF;
     border: 2px solid transparent;
     border-radius: 0;
@@ -69,7 +69,7 @@ a:focus {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #ffffff;
+    background: whitesmoke;
     opacity: 0;
     visibility: hidden;
     -webkit-transition: opacity .3s ease-out, visibility 0s linear .3s;
@@ -122,7 +122,7 @@ a:focus {
 }
 
 .back-to-top i {
-    color: #ffffff;
+    color: whitesmoke;
 }
 
 .back-to-top:hover i {
@@ -180,11 +180,11 @@ a:focus {
     
     .navbar.nav-sticky {
         padding: 10px 60px;
-        background: #ffffff !important;
+        background: whitesmoke !important;
     }
     
     .navbar .navbar-brand {
-        color: #ffffff;
+        color: whitesmoke;
     }
     
     .navbar.nav-sticky .navbar-brand {
@@ -194,7 +194,7 @@ a:focus {
     .navbar-light .navbar-nav .nav-link,
     .navbar-light .navbar-nav .nav-link:focus {
         padding: 10px 10px 8px 10px;
-        color: #ffffff;
+        color: whitesmoke;
         font-size: 15px;
         font-weight: 500;
     }
@@ -218,7 +218,7 @@ a:focus {
 @media (max-width: 991.98px) {   
     .navbar {
         padding: 15px;
-        background: #ffffff !important;
+        background: whitesmoke !important;
     }
     
     .navbar .navbar-brand {
@@ -280,14 +280,14 @@ a:focus {
 }
 
 .hero .hero-text p {
-    color: #ffffff;
+    color: whitesmoke;
     font-size: 25px;
     font-weight: 600;
     margin-bottom: 15px;
 }
 
 .hero .hero-text h1 {
-    color: #ffffff;
+    color: whitesmoke;
     font-size: 60px;
     font-weight: 700;
     letter-spacing: 3px;
@@ -298,7 +298,7 @@ a:focus {
     display: inline-block;
     margin: 0;
     height: 35px;
-    color: #ffffff;
+    color: whitesmoke;
     font-size: 35px;
     font-weight: 600;
 }
@@ -310,21 +310,21 @@ a:focus {
 .hero .hero-text .typed-cursor {
     font-size: 35px;
     font-weight: 300;
-    color: #ffffff;
+    color: whitesmoke;
 }
 
 .hero .hero-btn .btn {
     margin-top: 35px;
     color: #E69A8DFF;
-    background: #ffffff;
-    box-shadow: inset 0 0 0 50px #ffffff;
+    background: whitesmoke;
+    box-shadow: inset 0 0 0 50px whitesmoke;
 }
 
 .hero .hero-btn .btn:hover {
-    color: #ffffff;
+    color: whitesmoke;
     background: transparent;
-    box-shadow: inset 0 0 0 0 #ffffff;
-    border-color: #ffffff;
+    box-shadow: inset 0 0 0 0 whitesmoke;
+    border-color: whitesmoke;
 }
 
 .hero .hero-btn .btn:first-child {
@@ -386,6 +386,7 @@ a:focus {
     }
     
     .hero .hero-btn .btn {
+        
         padding: 10px 15px;
         letter-spacing: 1px;
     }
@@ -430,7 +431,7 @@ a:focus {
     font-weight: 600;
     letter-spacing: 1px;
     text-transform: uppercase;
-    background: #ffffff;
+    background: whitesmoke;
 }
 
 .section-header p::before {
@@ -479,6 +480,10 @@ a:focus {
     background-color: whitesmoke;
 }
 
+.skills{
+    background-color: whitesmoke;
+}
+
 .about .col-lg-6 {
     padding: 0;
 }
@@ -503,6 +508,27 @@ a:focus {
     padding: 0 60px;
 }
 
+.about .about-content a.btn{
+    color: whitesmoke;
+    background: #E69A8DFF;
+    box-shadow: inset 0 0 0 0 whitesmoke;
+    border-color: whitesmoke;
+}
+
+.about .about-content :hover a.btn {
+    color: #E69A8DFF;
+    background: whitesmoke;
+    box-shadow: inset 0 0 0 0 #E69A8DFF;
+    border-color: #E69A8DFF;
+}
+.about .about-content :focus a.btn {
+    color: #E69A8DFF;
+    background: whitesmoke;
+    box-shadow: inset 0 0 0 0 #E69A8DFF;
+    border-color: #E69A8DFF;
+}
+
+
 .about .about-text p {
     font-size: 16px;
 }
@@ -526,6 +552,8 @@ a:focus {
     float: right;
 }
 
+
+
 .about .progress {
     height: 10px;
     border-radius: 10px;
@@ -537,6 +565,10 @@ a:focus {
     background: #E69A8DFF;
     border-radius: 10px;
     transition: 2s;
+}
+
+.row .progress .progress-bar{
+    background-color: #E69A8DFF;
 }
 
 .about .about-text a.btn {
@@ -598,7 +630,7 @@ a:focus {
     height: 16px;
     top: 48px;
     right: -8px;
-    background: #ffffff;
+    background: whitesmoke;
     border: 2px solid #E69A8DFF;
     border-radius: 16px;
     z-index: 1;
@@ -649,7 +681,7 @@ a:focus {
 
 .experience .timeline .timeline-text {
     padding: 30px;
-    background: #ffffff;
+    background: whitesmoke;
     position: relative;
     border-right: 5px solid #dddddd;
     box-shadow: 0 0 60px rgba(0, 0, 0, .08);
@@ -756,7 +788,7 @@ a:focus {
     align-items: center;
     justify-content: center;
     border: 1px solid #E69A8DFF;
-    background: #ffffff;
+    background: whitesmoke;
 }
 
 .service .service-icon i {
@@ -791,7 +823,7 @@ a:focus {
 
 .service .service-item:hover .service-text h3,
 .service .service-item:hover .service-text p {
-    color: #ffffff;
+    color: whitesmoke;
 }
 
 @media (max-width: 575.98px) {
@@ -829,7 +861,7 @@ a:focus {
     padding: 6px 12px;
     font-size: 14px;
     font-weight: 600;
-    color: #ffffff;
+    color: whitesmoke;
     background: #E69A8DFF;
     border: 2px solid transparent;
     border-radius: 0;
@@ -881,7 +913,7 @@ a:focus {
     margin: -30px 15px 30px 15px;
     display: flex;
     align-items: center;
-    background: #ffffff;
+    background: whitesmoke;
     box-shadow: 0 0 15px rgba(0, 0, 0, .12);
 }
 
@@ -903,191 +935,25 @@ a:focus {
     justify-content: center;
     font-size: 45px;
     font-weight: 100;
+    color: whitesmoke;
+    background: #E69A8DFF;
+    box-shadow: inset 0 0 0 0 whitesmoke;
+    border-color: whitesmoke;
 }
 
 .portfolio .portfolio-item:hover a.btn {
     color: #E69A8DFF;
-    background: transparent;
+    background: whitesmoke;
+    box-shadow: inset 0 0 0 0 #E69A8DFF;
+    border-color: #E69A8DFF;
+}
+.portfolio .portfolio-item:focus a.btn {
+    color: #E69A8DFF;
+    background: whitesmoke;
     box-shadow: inset 0 0 0 0 #E69A8DFF;
     border-color: #E69A8DFF;
 }
 
-
-/*******************************/
-/********* Banner CSS **********/
-/*******************************/
-.banner {
-    position: relative;
-    width: 100%;
-    margin: 45px 0;
-    padding: 90px 0;
-    background: #E69A8DFF;
-}
-
-.banner .container {
-    max-width: 750px;
-    text-align: center;
-}
-
-.banner .section-header {
-    margin-bottom: 20px;
-}
-
-.banner .section-header p {
-    color: #414141;
-    background: transparent;
-}
-
-.banner .section-header p::after {
-    display: none;
-}
-
-.banner .section-header h2 {
-    color: #ffffff;
-}
-
-.banner .section-header h2 span {
-    color: #414141;
-    font-size: 50px;
-}
-
-.banner .banner-text p {
-    font-size: 18px;
-    color: #ffffff;
-}
-
-.banner .banner-text .btn {
-    margin-top: 15px;
-    color: #E69A8DFF;
-    background: #ffffff;
-    box-shadow: inset 0 0 0 50px #ffffff;
-}
-
-.banner .banner-text .btn:hover {
-    color: #ffffff;
-    background: transparent;
-    box-shadow: inset 0 0 0 0 #ffffff;
-    border-color: #ffffff;
-}
-
-
-/*******************************/
-/********* Pricing CSS *********/
-/*******************************/
-.price {
-    position: relative;
-    width: 100%;
-    padding: 45px 0 15px 0;
-}
-
-.price .row {
-    padding: 0 15px;
-}
-
-.price .col-md-4 {
-    padding: 0;
-}
-
-.price .price-item {
-    position: relative;
-    margin-bottom: 30px;
-    background: #ffffff;
-}
-
-.price .featured-item {
-    box-shadow: 0 0 30px rgba(0, 0, 0, .2);
-    z-index: 1;
-}
-
-.price .price-header,
-.price .price-body,
-.price .price-footer {
-    position: relative;
-    text-align: center;
-}
-
-.price .price-header {
-    padding: 45px 0 30px 0;
-    color: #414141;
-}
-
-.price .price-item.featured-item .price-header {
-    color: #E69A8DFF;
-}
-
-.price .price-title h2 {
-    font-size: 25px;
-    font-weight: 400;
-    text-transform: uppercase;
-}
-
-.price .price-prices h2 {
-    font-size: 45px;
-    font-weight: 700;
-    margin-left: 10px;
-}
-
-.price .price-prices h2 small {
-    position: absolute;
-    font-size: 18px;
-    font-weight: 400;
-    margin-top: 9px;
-    margin-left: -12px;
-}
-
-.price .price-prices h2 span {
-    margin-left: 1px;
-    font-size: 18px;
-    font-weight: 400;
-}
-
-.price .price-item.featured-item h2 {
-    color: #E69A8DFF;
-}
-
-.price .price-body {
-    padding: 0 0 20px 0;
-}
-
-.price .price-description ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-.price .price-description ul li {
-    padding: 0 0 20px 0;
-}
-
-.price .price-item .price-action {
-    padding-bottom: 45px;
-}
-
-.price .price-item .price-action .btn {
-    color: #ffffff;
-    background: #414141;
-    box-shadow: inset 0 0 0 50px #414141;
-}
-
-.price .price-item .price-action .btn:hover {
-    color: #414141;
-    background: transparent;
-    box-shadow: inset 0 0 0 0 #414141;
-    border-color: #414141;
-}
-
-.price .price-item.featured-item .price-action .btn {
-    color: #ffffff;
-    background: #E69A8DFF;
-    box-shadow: inset 0 0 0 50px #E69A8DFF;
-}
-
-.price .price-item.featured-item .price-action .btn:hover {
-    color: #E69A8DFF;
-    background: transparent;
-    box-shadow: inset 0 0 0 0 #E69A8DFF;
-    border-color: #E69A8DFF;
-}
 
 
 /*******************************/
@@ -1101,7 +967,7 @@ a:focus {
 
 .team .team-item {
     position: relative;
-    background: #ffffff;
+    background: whitesmoke;
     margin-bottom: 30px;
     display: flex;
     align-items: center;
@@ -1178,15 +1044,15 @@ a:focus {
 .team .team-item:hover .team-text h2,
 .team .team-item:hover .team-text h4,
 .team .team-item:hover .team-text p {
-    color: #ffffff;
+    color: whitesmoke;
 }
 
 .team .team-item:hover .team-social a.btn {
-    background: #ffffff;
+    background: whitesmoke;
 }
 
 .team .team-item:hover .team-social a.btn:hover {
-    border-color: #ffffff;
+    border-color: whitesmoke;
 }
 
 @media(max-width: 575.98px) {
@@ -1251,7 +1117,7 @@ a:focus {
     margin: 0 auto;
     width: 120px;
     padding: 10px;
-    border: 5px dotted #ffffff;
+    border: 5px dotted whitesmoke;
     border-radius: 100px;
 }
 
@@ -1260,7 +1126,7 @@ a:focus {
     margin-top: -70px;
     padding: 65px 35px 30px 35px;
     text-align: center;
-    background: #ffffff;
+    background: whitesmoke;
     border-radius: 500px;
 }
 
@@ -1297,7 +1163,7 @@ a:focus {
 }
 
 .testimonial .owl-dot.active {
-    background: #ffffff;
+    background: whitesmoke;
 }
 
 
@@ -1323,7 +1189,7 @@ a:focus {
 }
 
 .contact .contact-form input {
-    color: #ffffff;
+    color: whitesmoke;
     padding: 15px 0;
     background: none;
     border-radius: 0;
@@ -1332,7 +1198,7 @@ a:focus {
 }
 
 .contact .contact-form textarea {
-    color: #ffffff;
+    color: whitesmoke;
     height: 90px;
     padding: 15px 0;
     background: none;
@@ -1342,27 +1208,27 @@ a:focus {
 }
 
 .contact .contact-form .form-control::placeholder {
-    color: #ffffff;
+    color: whitesmoke;
     opacity: 1;
 }
 
 .contact .contact-form .form-control:-ms-input-placeholder,
 .contact .contact-form .form-control::-ms-input-placeholder {
-    color: #ffffff;
+    color: whitesmoke;
 }
 
 .contact .contact-form .btn {
     margin-top: 35px;
     color: #E69A8DFF;
-    background: #ffffff;
-    box-shadow: inset 0 0 0 50px #ffffff;
+    background: whitesmoke;
+    box-shadow: inset 0 0 0 50px whitesmoke;
 }
 
 .contact .contact-form .btn:hover {
-    color: #ffffff;
+    color: whitesmoke;
     background: transparent;
-    box-shadow: inset 0 0 0 0 #ffffff;
-    border-color: #ffffff;
+    box-shadow: inset 0 0 0 0 whitesmoke;
+    border-color: whitesmoke;
 }
 
 .contact .help-block ul {
@@ -1371,7 +1237,7 @@ a:focus {
     list-style-type: none;
     font-size: 14px;
     font-style: italic;
-    color: #ffffff;
+    color: whitesmoke;
 }
 
 @media (max-width: 767.98px) {
@@ -1434,11 +1300,30 @@ a:focus {
 .blog .blog-item a.btn {
     margin-top: 10px;
     padding: 8px 15px;
+    color: whitesmoke;
+    background: #E69A8DFF;
+    box-shadow: inset 0 0 0 0 whitesmoke;
+    border-color: whitesmoke;
 }
 
 .blog .blog-item a.btn i {
     margin-left: 5px;
 }
+
+
+.blog .blog-item:hover a.btn {
+    color: #E69A8DFF;
+    background: whitesmoke;
+    box-shadow: inset 0 0 0 0 #E69A8DFF;
+    border-color: #E69A8DFF;
+}
+.blog .blog-item:focus a.btn {
+    color: #E69A8DFF;
+    background: whitesmoke;
+    box-shadow: inset 0 0 0 0 #E69A8DFF;
+    border-color: #E69A8DFF;
+}
+
 
 .blog .blog-meta {
     position: relative;
@@ -1484,14 +1369,14 @@ a:focus {
     margin-bottom: 20px;
     font-size: 30px;
     font-weight: 700;
-    color: #ffffff;
+    color: whitesmoke;
 }
 
 .footer .footer-info h3 {
     margin-bottom: 25px;
     font-size: 22px;
     font-weight: 600;
-    color: #ffffff;
+    color: whitesmoke;
 }
 
 .footer .footer-menu {
@@ -1501,12 +1386,12 @@ a:focus {
 }
 
 .footer .footer-menu p {
-    color: #ffffff;
+    color: whitesmoke;
     font-size: 22px;
     font-weight: 600;
     line-height: 20px;
     padding: 0 15px;
-    border-right: 1px solid #ffffff;
+    border-right: 1px solid whitesmoke;
 }
 
 .footer .footer-menu p:last-child {
@@ -1525,7 +1410,7 @@ a:focus {
 .footer .footer-social a i {
     margin-right: 15px;
     font-size: 20px;
-    color: #ffffff;
+    color: whitesmoke;
     transition: .3s;
 }
 
@@ -1557,7 +1442,7 @@ a:focus {
 
 .footer .copyright p {
     margin: 0;
-    color: #ffffff;
+    color: whitesmoke;
 }
 
 .footer .copyright .col-md-6:last-child p {
@@ -1565,7 +1450,7 @@ a:focus {
 }
 
 .footer .copyright p a {
-    color: #ffffff;
+    color: whitesmoke;
     font-weight: 600;
 }
 
@@ -1590,4 +1475,28 @@ a:focus {
         line-height: 16px;
         padding: 0 5px;
     }
+}
+
+
+.btn2 {
+    padding: 12px 25px;
+    
+    font-size: 30px;
+    color: #E69A8DFF;
+    letter-spacing: 1px;
+    
+    
+    border: 2px solid #E69A8DFF;
+    
+    
+    transition: ease-out 0.3s;
+    -webkit-transition: ease-out 0.3s;
+    -moz-transition: ease-out 0.3s;
+}
+
+.btn2:hover {
+    color: #E69A8DFF;
+    background: whitesmoke;
+    box-shadow: inset 0 0 0 0 #E69A8DFF;
+    border-color: #E69A8DFF;
 }
