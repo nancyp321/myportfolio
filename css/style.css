@@ -3,7 +3,7 @@
 /*******************************/
 body {
     color: #797979;
-    background: whitesmoke;
+    background: #ffffff;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -24,7 +24,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-    color: #E69A8DFF;
+    color: rgb(199, 181, 160);
     outline: none;
     text-decoration: none;
 }
@@ -43,21 +43,21 @@ a:focus {
     font-size: 14px;
     font-weight: 600;
     letter-spacing: 1px;
-    color: whitesmoke;
-    background: #E69A8DFF;
+    color: #ffffff;
+    background: rgb(199, 181, 160);
     border: 2px solid transparent;
     border-radius: 0;
-    box-shadow: inset 0 0 0 50px #E69A8DFF;
+    box-shadow: inset 0 0 0 50px rgb(199, 181, 160);
     transition: ease-out 0.3s;
     -webkit-transition: ease-out 0.3s;
     -moz-transition: ease-out 0.3s;
 }
 
 .btn:hover {
-    color: #E69A8DFF;
+    color: rgb(199, 181, 160);
     background: transparent;
-    box-shadow: inset 0 0 0 0 #E69A8DFF;
-    border-color: #E69A8DFF;
+    box-shadow: inset 0 0 0 0 rgb(199, 181, 160);
+    border-color: rgb(199, 181, 160);
 }
 
 #loader {
@@ -69,7 +69,7 @@ a:focus {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: whitesmoke;
+    background: #ffffff;
     opacity: 0;
     visibility: hidden;
     -webkit-transition: opacity .3s ease-out, visibility 0s linear .3s;
@@ -91,7 +91,7 @@ a:focus {
     width: 45px;
     height: 45px;
     border: 5px solid #dddddd;
-    border-top: 5px solid #E69A8DFF;
+    border-top: 5px solid rgb(199, 181, 160);
     border-radius: 50%;
     -webkit-animation: spin 2s linear infinite;
     animation: spin 2s linear infinite;
@@ -122,7 +122,7 @@ a:focus {
 }
 
 .back-to-top i {
-    color: whitesmoke;
+    color: #ffffff;
 }
 
 .back-to-top:hover i {
@@ -180,21 +180,21 @@ a:focus {
     
     .navbar.nav-sticky {
         padding: 10px 60px;
-        background: whitesmoke !important;
+        background: #ffffff !important;
     }
     
     .navbar .navbar-brand {
-        color: whitesmoke;
+        color: #ffffff;
     }
     
     .navbar.nav-sticky .navbar-brand {
-        color: #E69A8DFF;
+        color: rgb(199, 181, 160);
     }
 
     .navbar-light .navbar-nav .nav-link,
     .navbar-light .navbar-nav .nav-link:focus {
         padding: 10px 10px 8px 10px;
-        color: whitesmoke;
+        color: #ffffff;
         font-size: 15px;
         font-weight: 500;
     }
@@ -211,18 +211,18 @@ a:focus {
     
     .navbar-light.nav-sticky .navbar-nav .nav-link:hover,
     .navbar-light.nav-sticky .navbar-nav .nav-link.active {
-        color: #E69A8DFF;
+        color: rgb(199, 181, 160);
     }
 }
 
 @media (max-width: 991.98px) {   
     .navbar {
         padding: 15px;
-        background: whitesmoke !important;
+        background: #ffffff !important;
     }
     
     .navbar .navbar-brand {
-        color: #E69A8DFF;
+        color: rgb(199, 181, 160);
     }
     
     .navbar .navbar-nav {
@@ -249,7 +249,7 @@ a:focus {
     padding: 120px 0 0 0;
     overflow: hidden;
     /* background: linear-gradient(rgba(239, 35, 60, .95), rgba(239, 35, 60, .95)), url(../img/hero-bg.jpg); */
-    background: #E69A8DFF;
+    background: rgb(199, 181, 160);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -280,14 +280,14 @@ a:focus {
 }
 
 .hero .hero-text p {
-    color: whitesmoke;
+    color: #ffffff;
     font-size: 25px;
     font-weight: 600;
     margin-bottom: 15px;
 }
 
 .hero .hero-text h1 {
-    color: whitesmoke;
+    color: #ffffff;
     font-size: 60px;
     font-weight: 700;
     letter-spacing: 3px;
@@ -298,7 +298,7 @@ a:focus {
     display: inline-block;
     margin: 0;
     height: 35px;
-    color: whitesmoke;
+    color: #ffffff;
     font-size: 35px;
     font-weight: 600;
 }
@@ -310,21 +310,21 @@ a:focus {
 .hero .hero-text .typed-cursor {
     font-size: 35px;
     font-weight: 300;
-    color: whitesmoke;
+    color: #ffffff;
 }
 
 .hero .hero-btn .btn {
     margin-top: 35px;
-    color: #E69A8DFF;
-    background: whitesmoke;
-    box-shadow: inset 0 0 0 50px whitesmoke;
+    color: rgb(199, 181, 160);;
+    background: #ffffff;
+    box-shadow: inset 0 0 0 50px #ffffff;
 }
 
 .hero .hero-btn .btn:hover {
-    color: whitesmoke;
+    color: #ffffff;
     background: transparent;
-    box-shadow: inset 0 0 0 0 whitesmoke;
-    border-color: whitesmoke;
+    box-shadow: inset 0 0 0 0 #ffffff;
+    border-color: #ffffff;
 }
 
 .hero .hero-btn .btn:first-child {
@@ -431,7 +431,7 @@ a:focus {
     font-weight: 600;
     letter-spacing: 1px;
     text-transform: uppercase;
-    background: whitesmoke;
+    background: #ffffff;
 }
 
 .section-header p::before {
@@ -441,7 +441,7 @@ a:focus {
     top: 11px;
     right: 0;
     left: -30px;
-    background: #E69A8DFF;
+    background: rgb(199, 181, 160);
     z-index: -1;
 }
 
@@ -452,7 +452,7 @@ a:focus {
     height: 3px;
     top: 11px;
     left: 3px;
-    background: #E69A8DFF;
+    background: rgb(199, 181, 160);
     z-index: 1;
 }
 
@@ -477,11 +477,11 @@ a:focus {
     position: relative;
     width: 100%;
     margin: -45px 0 45px 0;
-    background-color: whitesmoke;
+    background-color: #ffffff;
 }
 
 .skills{
-    background-color: whitesmoke;
+    background-color: #ffffff;
 }
 
 .about .col-lg-6 {
@@ -509,23 +509,23 @@ a:focus {
 }
 
 .about .about-content a.btn{
-    color: whitesmoke;
-    background: #E69A8DFF;
-    box-shadow: inset 0 0 0 0 whitesmoke;
-    border-color: whitesmoke;
+    color: #ffffff;
+    background: rgb(199, 181, 160);
+    box-shadow: inset 0 0 0 0 #ffffff;
+    border-color: #ffffff;
 }
 
 .about .about-content :hover a.btn {
-    color: #E69A8DFF;
-    background: whitesmoke;
-    box-shadow: inset 0 0 0 0 #E69A8DFF;
-    border-color: #E69A8DFF;
+    color: rgb(199, 181, 160);
+    background: #ffffff;
+    box-shadow: inset 0 0 0 0 rgb(199, 181, 160);
+    border-color: rgb(199, 181, 160);
 }
 .about .about-content :focus a.btn {
-    color: #E69A8DFF;
-    background: whitesmoke;
-    box-shadow: inset 0 0 0 0 #E69A8DFF;
-    border-color: #E69A8DFF;
+    color: rgb(199, 181, 160);
+    background: #ffffff;
+    box-shadow: inset 0 0 0 0 rgb(199, 181, 160);
+    border-color: rgb(199, 181, 160);
 }
 
 
@@ -562,13 +562,13 @@ a:focus {
 
 .about .progress .progress-bar {
     width: 0px;
-    background: #E69A8DFF;
+    background: rgb(199, 181, 160);
     border-radius: 10px;
     transition: 2s;
 }
 
 .row .progress .progress-bar{
-    background-color: #E69A8DFF;
+    background-color: rgb(199, 181, 160);
 }
 
 .about .about-text a.btn {
@@ -601,7 +601,7 @@ a:focus {
     content: '';
     position: absolute;
     width: 2px;
-    background: #E69A8DFF;
+    background: rgb(199, 181, 160);
     top: 0;
     bottom: 0;
     left: 50%;
@@ -632,8 +632,8 @@ a:focus {
     height: 16px;
     top: 48px;
     right: -8px;
-    background: whitesmoke;
-    border: 2px solid #E69A8DFF;
+    background: #ffffff;
+    border: 2px solid rgb(199, 181, 160);
     border-radius: 16px;
     z-index: 1;
 }
@@ -664,8 +664,8 @@ a:focus {
     width: 100%;
     top: 44px;
     font-size: 16px;
-    font-weight: 600;
-    color: #E69A8DFF;
+    font-weight: 800;
+    color: rgb(199, 181, 160);
     text-transform: uppercase;
     letter-spacing: 1px;
     z-index: 1;
@@ -683,14 +683,14 @@ a:focus {
 
 .experience .timeline .timeline-text {
     padding: 30px;
-    background: whitesmoke;
+    background: rgb(250, 250, 250);
     position: relative;
     border-right: 5px solid #dddddd;
-    box-shadow: 0 0 60px rgba(0, 0, 0, .08);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .08);
 }
 
 .experience .timeline .timeline-item.right .timeline-text {
-    border-right: none;
+    /* border-right: none; */
     border-left: 5px solid #dddddd;
 }
 
@@ -779,7 +779,7 @@ a:focus {
 }
 
 .service .service-item:hover {
-    box-shadow: inset 800px 0 0 0 #E69A8DFF;
+    box-shadow: inset 800px 0 0 0 rgb(199, 181, 160);
 }
 
 .service .service-icon {
@@ -789,14 +789,14 @@ a:focus {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid #E69A8DFF;
-    background: whitesmoke;
+    border: 1px solid rgb(199, 181, 160);
+    background: #ffffff;
 }
 
 .service .service-icon i {
     position: relative;
     font-size: 60px;
-    color: #E69A8DFF;
+    color: rgb(199, 181, 160);
     transition: .3s;
 }
 
@@ -825,7 +825,7 @@ a:focus {
 
 .service .service-item:hover .service-text h3,
 .service .service-item:hover .service-text p {
-    color: whitesmoke;
+    color: #ffffff;
 }
 
 @media (max-width: 575.98px) {
@@ -863,11 +863,11 @@ a:focus {
     padding: 6px 12px;
     font-size: 14px;
     font-weight: 600;
-    color: whitesmoke;
-    background: #E69A8DFF;
+    color: #ffffff;
+    background: rgb(199, 181, 160);
     border: 2px solid transparent;
     border-radius: 0;
-    box-shadow: inset 0 0 0 50px #E69A8DFF;
+    box-shadow: inset 0 0 0 50px rgb(199, 181, 160);
     transition: ease-out 0.3s;
     -webkit-transition: ease-out 0.3s;
     -moz-transition: ease-out 0.3s;
@@ -875,10 +875,10 @@ a:focus {
 
 .portfolio #portfolio-filter li:hover,
 .portfolio #portfolio-filter li.filter-active {
-    color: #E69A8DFF;
+    color: rgb(199, 181, 160);
     background: transparent;
-    box-shadow: inset 0 0 0 0 #E69A8DFF;
-    border-color: #E69A8DFF;
+    box-shadow: inset 0 0 0 0 rgb(199, 181, 160);
+    border-color: rgb(199, 181, 160);
 }
 
 .portfolio .portfolio-item {
@@ -915,7 +915,7 @@ a:focus {
     margin: -30px 15px 30px 15px;
     display: flex;
     align-items: center;
-    background: whitesmoke;
+    background: #ffffff;
     box-shadow: 0 0 15px rgba(0, 0, 0, .12);
 }
 
@@ -937,23 +937,23 @@ a:focus {
     justify-content: center;
     font-size: 45px;
     font-weight: 100;
-    color: whitesmoke;
-    background: #E69A8DFF;
-    box-shadow: inset 0 0 0 0 whitesmoke;
-    border-color: whitesmoke;
+    color: #ffffff;
+    background: rgb(199, 181, 160);
+    box-shadow: inset 0 0 0 0 #ffffff;
+    border-color: #ffffff;
 }
 
 .portfolio .portfolio-item:hover a.btn {
-    color: #E69A8DFF;
-    background: whitesmoke;
-    box-shadow: inset 0 0 0 0 #E69A8DFF;
-    border-color: #E69A8DFF;
+    color: rgb(199, 181, 160);
+    background: #ffffff;
+    box-shadow: inset 0 0 0 0 rgb(199, 181, 160);
+    border-color: rgb(199, 181, 160);
 }
 .portfolio .portfolio-item:focus a.btn {
-    color: #E69A8DFF;
-    background: whitesmoke;
-    box-shadow: inset 0 0 0 0 #E69A8DFF;
-    border-color: #E69A8DFF;
+    color: rgb(199, 181, 160);
+    background: #ffffff;
+    box-shadow: inset 0 0 0 0 rgb(199, 181, 160);
+    border-color: rgb(199, 181, 160);
 }
 
 
@@ -969,7 +969,7 @@ a:focus {
 
 .team .team-item {
     position: relative;
-    background: whitesmoke;
+    background: #ffffff;
     margin-bottom: 30px;
     display: flex;
     align-items: center;
@@ -997,7 +997,7 @@ a:focus {
 }
 
 .team .team-text h2 {
-    color: #E69A8DFF;
+    color: rgb(199, 181, 160);
     font-size: 18px;
     font-weight: 600;
     margin-bottom: 5px;
@@ -1036,7 +1036,7 @@ a:focus {
 }
 
 .team .team-item:hover {
-    box-shadow: inset 800px 0 0 0 #E69A8DFF;
+    box-shadow: inset 800px 0 0 0 rgb(199, 181, 160);
 }
 
 .team .team-item:hover .team-img img {
@@ -1046,15 +1046,15 @@ a:focus {
 .team .team-item:hover .team-text h2,
 .team .team-item:hover .team-text h4,
 .team .team-item:hover .team-text p {
-    color: whitesmoke;
+    color: #ffffff;
 }
 
 .team .team-item:hover .team-social a.btn {
-    background: whitesmoke;
+    background: #ffffff;
 }
 
 .team .team-item:hover .team-social a.btn:hover {
-    border-color: whitesmoke;
+    border-color: #ffffff;
 }
 
 @media(max-width: 575.98px) {
@@ -1086,7 +1086,7 @@ a:focus {
     position: relative;
     margin: 45px 0;
     padding: 90px 0;
-    background: #E69A8DFF;
+    background: rgb(199, 181, 160);
 }
 
 .testimonial .container {
@@ -1119,7 +1119,7 @@ a:focus {
     margin: 0 auto;
     width: 120px;
     padding: 10px;
-    border: 5px dotted whitesmoke;
+    border: 5px dotted #ffffff;
     border-radius: 100px;
 }
 
@@ -1128,7 +1128,7 @@ a:focus {
     margin-top: -70px;
     padding: 65px 35px 30px 35px;
     text-align: center;
-    background: whitesmoke;
+    background: #ffffff;
     border-radius: 500px;
 }
 
@@ -1138,7 +1138,7 @@ a:focus {
 }
 
 .testimonial .testimonial-text h3 {
-    color: #E69A8DFF;
+    color: rgb(199, 181, 160);
     font-size: 18px;
     font-weight: 600;
     margin-bottom: 10px;
@@ -1165,7 +1165,7 @@ a:focus {
 }
 
 .testimonial .owl-dot.active {
-    background: whitesmoke;
+    background: #ffffff;
 }
 
 
@@ -1176,7 +1176,7 @@ a:focus {
     position: relative;
     width: 100%;
     margin: 45px 0;
-    background: #E69A8DFF;
+    background: rgb(199, 181, 160);
 }
 
 .contact .container-fluid {
@@ -1187,7 +1187,7 @@ a:focus {
 .contact .contact-form {
     position: relative;
     padding: 90px 0 90px 45px;
-    background: #E69A8DFF;
+    background: rgb(199, 181, 160);
 }
 
 #contactimg {
@@ -1196,7 +1196,7 @@ a:focus {
 }
 
 .contact .contact-form input {
-    color: whitesmoke;
+    color: #ffffff;
     padding: 15px 0;
     background: none;
     border-radius: 0;
@@ -1205,7 +1205,7 @@ a:focus {
 }
 
 .contact .contact-form textarea {
-    color: whitesmoke;
+    color: #ffffff;
     height: 90px;
     padding: 15px 0;
     background: none;
@@ -1215,27 +1215,27 @@ a:focus {
 }
 
 .contact .contact-form .form-control::placeholder {
-    color: whitesmoke;
+    color: #ffffff;
     opacity: 1;
 }
 
 .contact .contact-form .form-control:-ms-input-placeholder,
 .contact .contact-form .form-control::-ms-input-placeholder {
-    color: whitesmoke;
+    color: #ffffff;
 }
 
 .contact .contact-form .btn {
     margin-top: 35px;
-    color: #E69A8DFF;
-    background: whitesmoke;
-    box-shadow: inset 0 0 0 50px whitesmoke;
+    color: rgb(199, 181, 160);
+    background: #ffffff;
+    box-shadow: inset 0 0 0 50px #ffffff;
 }
 
 .contact .contact-form .btn:hover {
-    color: whitesmoke;
+    color: #ffffff;
     background: transparent;
-    box-shadow: inset 0 0 0 0 whitesmoke;
-    border-color: whitesmoke;
+    box-shadow: inset 0 0 0 0 #ffffff;
+    border-color: #ffffff;
 }
 
 .contact .help-block ul {
@@ -1244,7 +1244,7 @@ a:focus {
     list-style-type: none;
     font-size: 14px;
     font-style: italic;
-    color: whitesmoke;
+    color: #ffffff;
 }
 
 @media (max-width: 767.98px) {
@@ -1311,10 +1311,10 @@ a:focus {
 .blog .blog-item a.btn {
     margin-top: 10px;
     padding: 8px 15px;
-    color: whitesmoke;
-    background: #E69A8DFF;
-    box-shadow: inset 0 0 0 0 whitesmoke;
-    border-color: whitesmoke;
+    color: #ffffff;
+    background: rgb(199, 181, 160);
+    box-shadow: inset 0 0 0 0 #ffffff;
+    border-color: #ffffff;
 }
 
 .blog .blog-item a.btn i {
@@ -1323,16 +1323,16 @@ a:focus {
 
 
 .blog .blog-item:hover a.btn {
-    color: #E69A8DFF;
-    background: whitesmoke;
-    box-shadow: inset 0 0 0 0 #E69A8DFF;
-    border-color: #E69A8DFF;
+    color: rgb(199, 181, 160);
+    background: #ffffff;
+    box-shadow: inset 0 0 0 0 rgb(199, 181, 160);
+    border-color: rgb(199, 181, 160);
 }
 .blog .blog-item:focus a.btn {
-    color: #E69A8DFF;
-    background: whitesmoke;
-    box-shadow: inset 0 0 0 0 #E69A8DFF;
-    border-color: #E69A8DFF;
+    color: rgb(199, 181, 160);
+    background: #ffffff;
+    box-shadow: inset 0 0 0 0 rgb(199, 181, 160);
+    border-color: rgb(199, 181, 160);
 }
 
 
@@ -1363,7 +1363,7 @@ a:focus {
 .footer {
     position: relative;
     margin-top: 45px;
-    background: #E69A8DFF;
+    background: rgb(199, 181, 160);
 }
 
 .footer .container-fluid {
@@ -1380,14 +1380,14 @@ a:focus {
     margin-bottom: 20px;
     font-size: 30px;
     font-weight: 700;
-    color: whitesmoke;
+    color: #ffffff;
 }
 
 .footer .footer-info h3 {
     margin-bottom: 25px;
     font-size: 22px;
     font-weight: 600;
-    color: whitesmoke;
+    color: #ffffff;
 }
 
 .footer .footer-menu {
@@ -1397,12 +1397,12 @@ a:focus {
 }
 
 .footer .footer-menu p {
-    color: whitesmoke;
+    color: #ffffff;
     font-size: 22px;
     font-weight: 600;
     line-height: 20px;
     padding: 0 15px;
-    border-right: 1px solid whitesmoke;
+    border-right: 1px solid #ffffff;
 }
 
 .footer .footer-menu p:last-child {
@@ -1421,7 +1421,7 @@ a:focus {
 .footer .footer-social a i {
     margin-right: 15px;
     font-size: 20px;
-    color: whitesmoke;
+    color: #ffffff;
     transition: .3s;
 }
 
@@ -1453,7 +1453,7 @@ a:focus {
 
 .footer .copyright p {
     margin: 0;
-    color: whitesmoke;
+    color: #ffffff;
 }
 
 .footer .copyright .col-md-6:last-child p {
@@ -1461,7 +1461,7 @@ a:focus {
 }
 
 .footer .copyright p a {
-    color: whitesmoke;
+    color: #ffffff;
     font-weight: 600;
 }
 
@@ -1493,11 +1493,11 @@ a:focus {
     padding: 12px 25px;
     
     font-size: 30px;
-    color: #E69A8DFF;
+    color: rgb(199, 181, 160);
     letter-spacing: 1px;
     
     
-    border: 2px solid #E69A8DFF;
+    border: 2px solid rgb(199, 181, 160);
     
     
     transition: ease-out 0.3s;
@@ -1506,8 +1506,8 @@ a:focus {
 }
 
 .btn2:hover {
-    color: #E69A8DFF;
-    background: whitesmoke;
-    box-shadow: inset 0 0 0 0 #E69A8DFF;
-    border-color: #E69A8DFF;
+    color: rgb(199, 181, 160);
+    background: #ffffff;
+    box-shadow: inset 0 0 0 0 rgb(199, 181, 160);
+    border-color: rgb(199, 181, 160);
 }
